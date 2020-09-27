@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Added absolute positioning */
+h1{
+    
+    position: absolute;
+    top: 10px;
+
+}
+/* Removed header class selector added span element selector to change color of "seo"*/
+
+span{
+    color: #d9dcd6;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    
+
+}
+ul li{
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-right: 60px;
+}   
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* float: left; */
+}
+
+/* Changed from class selector to element selector. Added relatie positioning*/
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    position: relative;
+    
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+main{ 
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content {
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+/* Removed all id selectors in <main> replaced with class selector main-content*/
+
+.main-content{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Removed class selectors for img replaced with element selector */
+
+img{
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Changed class selector to main-content to syle all <h2> in <main> */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#online-reputation-management{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#social-media-marketing{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+}
+
+/* added aside element selector */
+
+aside{
+    width: 20%;
+    float: right;
+}
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Removed additonal class selectors in <aside>  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Reduced class selectors styling <h3>  and <img> in <aside> to one */
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+
+/* Added footer class selector removed footer class selector */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
