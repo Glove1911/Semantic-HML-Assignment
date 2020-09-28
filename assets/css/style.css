@@ -101,28 +101,20 @@ img{
     margin-left: 25px;
 }
 
-/* Changed class selector to main-content to syle all <h2> in <main> */
-#search-engine-optimization {
+/* Combined class selectors to eliminate duplicate code */
+
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#online-reputation-management{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 p {
     font-size: 16px;
 }
 
 /* added aside element selector */
 
-aside{
+section{
     width: 20%;
     float: right;
 }
@@ -136,7 +128,7 @@ aside{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Removed additonal class selectors in <aside>  */
+/* Removed additonal class selectors in <section>  */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
