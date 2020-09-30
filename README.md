@@ -1,7 +1,8 @@
 # Semantic-HTML-Assignment
 # Description
 Our First Bootcamp Homework Assignment is to take existing code and refactor it to increase accessibility.
-In addition, the "Scout Rule" is to be applied to leave the code cleaner than when we found it. 
+In addition, the "Scout Rule" is to be applied to leave the code cleaner than when we found it.  Additonal information about the assignment, including acceptance criteria, can be found [here](https://github.com/Glove1911/Semantic-HML-Assignment/blob/master/README%20copy.md)
+
 # Usage
 
 This website is for a SEO Managemen and marketing Company.
